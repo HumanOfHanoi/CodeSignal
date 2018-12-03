@@ -1,10 +1,3 @@
-#include <stdio.h>
-#include <iostream>
-#include <string>
-#include <vector>
-
-using namespace std;
-
 bool almostIncreasingSequence(std::vector<int> sequence) {
 	bool isOrdered = false;
 	std::vector<int> arrTg;
@@ -32,12 +25,4 @@ bool inOrder(std::vector<int> anArray) {
 		}
 	}
 	return true;
-}
-
-void main(){
-	vector<int> arrAlmost = { 1, 3, 2 };
-	bool result = almostIncreasingSequence(arrAlmost);
-	cout << result << endl;
-
-	getchar();
 }

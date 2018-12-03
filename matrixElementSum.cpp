@@ -1,11 +1,4 @@
-﻿#include <stdio.h>
-#include <iostream>
-#include <vector>
-#include <string>
-
-using namespace std;
-
-/*
+﻿/*
 	After they became famous, the CodeBots all decided to move to a new building and live together. 
 	The building is represented by a rectangular matrix of rooms. 
 	Each cell in the matrix contains an integer that represents the price of the room. 
@@ -62,15 +55,4 @@ int matrixElementsSum(std::vector<std::vector<int>> matrix) {
 		}
 	}
 	return totalPrice;
-}
-
-void main(){
-	std::vector<std::vector<int>> matrix = { 
-											{ 0, 1, 1, 2 },
-											{ 0, 5, 0, 0 },
-											{ 2, 0, 3, 3 }
-										};
-	cout << "MatrixElementSum: " << matrixElementsSum(matrix) << endl;
-
-	getchar();
 }

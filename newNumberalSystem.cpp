@@ -1,8 +1,3 @@
-#include <stdio.h>
-#include <iostream>
-#include <string>
-#include <vector>
-
 std::vector<std::string> newNumberalSystem(char number){
 	std::vector<std::string> output;
 	char temp[26] = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
@@ -21,12 +16,4 @@ std::vector<std::string> newNumberalSystem(char number){
 	}
 
 	return output;
-}
-
-void main(){
-	std::vector<std::string> output = newNumberalSystem('G');
-	for (int i = 0; i < output.size(); ++i){
-		std::cout << "[" << output[i] << "]";
-	}
-	getchar();
 }
